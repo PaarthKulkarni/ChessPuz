@@ -1,0 +1,196 @@
+Activity mcIgnorable=sap sap2010 xClass=Puzzle_Collector mvaVisualBasic.Settings={xNull} sapVirtualizedContainerService.HintSize=853.6,2252.8 sap2010WorkflowViewState.IdRef=Puzzle_Collector_1 xmlns=httpschemas.microsoft.comnetfx2009xamlactivities xmlnsmc=httpschemas.openxmlformats.orgmarkup-compatibility2006 xmlnsmva=clr-namespaceMicrosoft.VisualBasic.Activities;assembly=System.Activities xmlnss=clr-namespaceSystem;assembly=mscorlib xmlnssap=httpschemas.microsoft.comnetfx2009xamlactivitiespresentation xmlnssap2010=httpschemas.microsoft.comnetfx2010xamlactivitiespresentation xmlnsscg=clr-namespaceSystem.Collections.Generic;assembly=mscorlib xmlnssd=clr-namespaceSystem.Data;assembly=System.Data xmlnsui=httpschemas.uipath.comworkflowactivities xmlnsx=httpschemas.microsoft.comwinfx2006xaml
+  TextExpression.NamespacesForImplementation
+    scgList xTypeArguments=xString Capacity=68
+      xStringSystem.ActivitiesxString
+      xStringSystem.Activities.StatementsxString
+      xStringSystem.Activities.ExpressionsxString
+      xStringSystem.Activities.ValidationxString
+      xStringSystem.Activities.XamlIntegrationxString
+      xStringMicrosoft.VisualBasicxString
+      xStringMicrosoft.VisualBasic.ActivitiesxString
+      xStringSystemxString
+      xStringSystem.CollectionsxString
+      xStringSystem.Collections.GenericxString
+      xStringSystem.DataxString
+      xStringSystem.DiagnosticsxString
+      xStringSystem.DrawingxString
+      xStringSystem.IOxString
+      xStringSystem.LinqxString
+      xStringSystem.Net.MailxString
+      xStringSystem.XmlxString
+      xStringSystem.Xml.LinqxString
+      xStringUiPath.CorexString
+      xStringUiPath.Core.ActivitiesxString
+      xStringSystem.Windows.MarkupxString
+      xStringUiPath.UIAutomationNext.Models.ExtractDataxString
+      xStringSystem.ComponentModelxString
+      xStringSystem.Runtime.SerializationxString
+      xStringSystem.Xml.SerializationxString
+      xStringUiPath.UIAutomationNext.EnumsxString
+      xStringUiPath.UIAutomationCore.ContractsxString
+      xStringUiPath.UIAutomationNext.ActivitiesxString
+      xStringUiPath.Platform.ObjectLibraryxString
+      xStringUiPath.Shared.ActivitiesxString
+      xStringSystem.Collections.ObjectModelxString
+      xStringSystem.Activities.DynamicUpdatexString
+      xStringSystem.ReflectionxString
+      xStringSystem.Runtime.InteropServicesxString
+      xStringUiPath.ExcelxString
+      xStringUiPath.Excel.ActivitiesxString
+    scgList
+  TextExpression.NamespacesForImplementation
+  TextExpression.ReferencesForImplementation
+    scgList xTypeArguments=AssemblyReference Capacity=32
+      AssemblyReferenceSystem.ActivitiesAssemblyReference
+      AssemblyReferenceMicrosoft.VisualBasicAssemblyReference
+      AssemblyReferencemscorlibAssemblyReference
+      AssemblyReferenceSystem.DataAssemblyReference
+      AssemblyReferenceSystem.Data.DataSetExtensionsAssemblyReference
+      AssemblyReferenceSystemAssemblyReference
+      AssemblyReferenceSystem.DrawingAssemblyReference
+      AssemblyReferenceSystem.CoreAssemblyReference
+      AssemblyReferenceSystem.XmlAssemblyReference
+      AssemblyReferenceSystem.Xml.LinqAssemblyReference
+      AssemblyReferencePresentationFrameworkAssemblyReference
+      AssemblyReferenceWindowsBaseAssemblyReference
+      AssemblyReferencePresentationCoreAssemblyReference
+      AssemblyReferenceSystem.XamlAssemblyReference
+      AssemblyReferenceUiPath.System.ActivitiesAssemblyReference
+      AssemblyReferenceUiPath.UiAutomation.ActivitiesAssemblyReference
+      AssemblyReferenceUiPath.UIAutomationNextAssemblyReference
+      AssemblyReferenceSystem.Runtime.SerializationAssemblyReference
+      AssemblyReferenceUiPath.UIAutomationCoreAssemblyReference
+      AssemblyReferenceUiPath.UIAutomationNext.ActivitiesAssemblyReference
+      AssemblyReferenceUiPath.PlatformAssemblyReference
+      AssemblyReferenceUiPath.Excel.ActivitiesAssemblyReference
+      AssemblyReferenceUiPath.Mail.ActivitiesAssemblyReference
+      AssemblyReferenceUiPath.OCR.ActivitiesAssemblyReference
+      AssemblyReferenceSystem.ServiceModelAssemblyReference
+      AssemblyReferenceMicrosoft.Bcl.AsyncInterfacesAssemblyReference
+      AssemblyReferenceSystem.ValueTupleAssemblyReference
+      AssemblyReferenceSystem.ComponentModel.CompositionAssemblyReference
+      AssemblyReferenceSystem.MemoryAssemblyReference
+      AssemblyReferenceUiPath.ExcelAssemblyReference
+      AssemblyReferenceSystem.Reflection.MetadataAssemblyReference
+      AssemblyReferenceSystem.Runtime.WindowsRuntimeAssemblyReference
+    scgList
+  TextExpression.ReferencesForImplementation
+  Sequence DisplayName=Puzzle_Collector sapVirtualizedContainerService.HintSize=601.6,2188 sap2010WorkflowViewState.IdRef=Sequence_1
+    Sequence.Variables
+      Variable xTypeArguments=xString Name=Pre 
+      Variable xTypeArguments=sString[] Name=Puz 
+      Variable xTypeArguments=xString Name=item 
+      Variable xTypeArguments=sdDataTable Name=Puzzles 
+      Variable xTypeArguments=xInt32 Name=i 
+    Sequence.Variables
+    sapWorkflowViewStateService.ViewState
+      scgDictionary xTypeArguments=xString, xObject
+        xBoolean xKey=IsExpandedTruexBoolean
+      scgDictionary
+    sapWorkflowViewStateService.ViewState
+    Sequence DisplayName=Screen Scraping sapVirtualizedContainerService.HintSize=560,440 sap2010WorkflowViewState.IdRef=Sequence_3
+      sapWorkflowViewStateService.ViewState
+        scgDictionary xTypeArguments=xString, xObject
+          xBoolean xKey=IsExpandedTruexBoolean
+        scgDictionary
+      sapWorkflowViewStateService.ViewState
+      uiBrowserScope Browser={xNull} SearchScope={xNull} TimeoutMS={xNull} UiBrowser={xNull} BrowserType=Chrome DisplayName=Attach Browser 'Httpswwww Page' sapVirtualizedContainerService.HintSize=433.6,347.2 sap2010WorkflowViewState.IdRef=BrowserScope_1 InformativeScreenshot=cc7ae67d7a1fb14b39dcf97253489f7c Selector=&lt;html app='chrome.exe' title='httpswww.wtharvey.compuru.txt' &gt;
+        uiBrowserScope.Body
+          ActivityAction xTypeArguments=xObject
+            ActivityAction.Argument
+              DelegateInArgument xTypeArguments=xObject Name=ContextTarget 
+            ActivityAction.Argument
+            Sequence DisplayName=Do sapVirtualizedContainerService.HintSize=375.2,200 sap2010WorkflowViewState.IdRef=Sequence_2
+              sapWorkflowViewStateService.ViewState
+                scgDictionary xTypeArguments=xString, xObject
+                  xBoolean xKey=IsExpandedTruexBoolean
+                scgDictionary
+              sapWorkflowViewStateService.ViewState
+              uiGetValue ContinueOnError={xNull} DisplayName=Get Text 'PRE' sapVirtualizedContainerService.HintSize=333.6,107.2 sap2010WorkflowViewState.IdRef=GetValue_1
+                uiGetValue.Target
+                  uiTarget ClippingRegion={xNull} Element={xNull} Id=a9e5106c-b6e8-4e8f-9429-98af652dfee7 InformativeScreenshot=6f9bfc9374a10a1ea95df468d2fbc540 Selector=&lt;webctrl tag='PRE' &gt;
+                    uiTarget.TimeoutMS
+                      InArgument xTypeArguments=xInt32 
+                    uiTarget.TimeoutMS
+                    uiTarget.WaitForReady
+                      InArgument xTypeArguments=uiWaitForReady 
+                    uiTarget.WaitForReady
+                  uiTarget
+                uiGetValue.Target
+                uiGetValue.Value
+                  OutArgument xTypeArguments=xString[Pre]OutArgument
+                uiGetValue.Value
+              uiGetValue
+            Sequence
+          ActivityAction
+        uiBrowserScope.Body
+      uiBrowserScope
+    Sequence
+    WriteLine DisplayName=Write Line sapVirtualizedContainerService.HintSize=560,62.4 sap2010WorkflowViewState.IdRef=WriteLine_1 Text=[Pre] 
+    Assign sapVirtualizedContainerService.HintSize=560,64 sap2010WorkflowViewState.IdRef=Assign_1
+      Assign.To
+        OutArgument xTypeArguments=sString[][Puz]OutArgument
+      Assign.To
+      Assign.Value
+        InArgument xTypeArguments=sString[][Pre.Split({vbLf},StringSplitOptions.RemoveEmptyEntries)]InArgument
+      Assign.Value
+    Assign
+    uiBuildDataTable DataTable=[Puzzles] DisplayName=Build Data Table sapVirtualizedContainerService.HintSize=560,60 sap2010WorkflowViewState.IdRef=BuildDataTable_1 TableInfo=&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xsschema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlnsxs=&quot;httpwww.w3.org2001XMLSchema&quot; xmlnsmsdata=&quot;urnschemas-microsoft-comxml-msdata&quot;&gt;&#xD;&#xA;    &lt;xselement name=&quot;NewDataSet&quot; msdataIsDataSet=&quot;true&quot; msdataMainDataTable=&quot;TableName&quot; msdataUseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xscomplexType&gt;&#xD;&#xA;        &lt;xschoice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xselement name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xscomplexType&gt;&#xD;&#xA;              &lt;xssequence&gt;&#xD;&#xA;                &lt;xselement name=&quot;Sr._x0020_No.&quot; msdataAutoIncrement=&quot;true&quot; msdataCaption=&quot;&quot; type=&quot;xsint&quot; minOccurs=&quot;0&quot; &gt;&#xD;&#xA;                &lt;xselement name=&quot;Position&quot; msdataCaption=&quot;&quot; type=&quot;xsstring&quot; minOccurs=&quot;0&quot; &gt;&#xD;&#xA;              &lt;xssequence&gt;&#xD;&#xA;            &lt;xscomplexType&gt;&#xD;&#xA;          &lt;xselement&gt;&#xD;&#xA;        &lt;xschoice&gt;&#xD;&#xA;      &lt;xscomplexType&gt;&#xD;&#xA;      &lt;xsunique name=&quot;Constraint1&quot;&gt;&#xD;&#xA;        &lt;xsselector xpath=&quot;.TableName&quot; &gt;&#xD;&#xA;        &lt;xsfield xpath=&quot;Sr._x0020_No.&quot; &gt;&#xD;&#xA;      &lt;xsunique&gt;&#xD;&#xA;    &lt;xselement&gt;&#xD;&#xA;  &lt;xsschema&gt;&#xD;&#xA;&lt;NewDataSet&gt; 
+    Assign sapVirtualizedContainerService.HintSize=560,60 sap2010WorkflowViewState.IdRef=Assign_2
+      Assign.To
+        OutArgument xTypeArguments=xInt32[i]OutArgument
+      Assign.To
+      Assign.Value
+        InArgument xTypeArguments=xInt321InArgument
+      Assign.Value
+    Assign
+    uiForEach xTypeArguments=xObject CurrentIndex={xNull} DisplayName=For Each sapVirtualizedContainerService.HintSize=560,1052.8 sap2010WorkflowViewState.IdRef=ForEach`1_1 Values=[Puz]
+      uiForEach.Body
+        ActivityAction xTypeArguments=xObject
+          ActivityAction.Argument
+            DelegateInArgument xTypeArguments=xObject Name=item 
+          ActivityAction.Argument
+          Sequence DisplayName=Body sapVirtualizedContainerService.HintSize=524.8,928 sap2010WorkflowViewState.IdRef=Sequence_5
+            sapWorkflowViewStateService.ViewState
+              scgDictionary xTypeArguments=xString, xObject
+                xBoolean xKey=IsExpandedTruexBoolean
+              scgDictionary
+            sapWorkflowViewStateService.ViewState
+            If Condition=[item.ToString.Contains(&quot;&quot;)] sapVirtualizedContainerService.HintSize=483.2,835.2 sap2010WorkflowViewState.IdRef=If_1
+              If.Then
+                Sequence sapVirtualizedContainerService.HintSize=375.2,646.4 sap2010WorkflowViewState.IdRef=Sequence_6
+                  sapWorkflowViewStateService.ViewState
+                    scgDictionary xTypeArguments=xString, xObject
+                      xBoolean xKey=IsExpandedTruexBoolean
+                    scgDictionary
+                  sapWorkflowViewStateService.ViewState
+                  uiLogMessage DisplayName=Log Message sapVirtualizedContainerService.HintSize=333.6,92.8 sap2010WorkflowViewState.IdRef=LogMessage_1 Level=Warn Message=[item] 
+                  uiLogMessage DisplayName=Log Message sapVirtualizedContainerService.HintSize=333.6,92.8 sap2010WorkflowViewState.IdRef=LogMessage_2 Level=Warn Message=[&quot;----&quot;] 
+                  uiAddDataRow DataRow={xNull} ArrayRow=[{i,item}] DataTable=[Puzzles] DisplayName=Add Data Row sapVirtualizedContainerService.HintSize=333.6,188 sap2010WorkflowViewState.IdRef=AddDataRow_1 
+                  Assign sapVirtualizedContainerService.HintSize=333.6,60 sap2010WorkflowViewState.IdRef=Assign_3
+                    Assign.To
+                      OutArgument xTypeArguments=xInt32[i]OutArgument
+                    Assign.To
+                    Assign.Value
+                      InArgument xTypeArguments=xInt32[i + 1]InArgument
+                    Assign.Value
+                  Assign
+                Sequence
+              If.Then
+              If.Else
+                Sequence sap2010WorkflowViewState.IdRef=Sequence_7
+                  sapWorkflowViewStateService.ViewState
+                    scgDictionary xTypeArguments=xString, xObject
+                      xBoolean xKey=IsExpandedTruexBoolean
+                    scgDictionary
+                  sapWorkflowViewStateService.ViewState
+                Sequence
+              If.Else
+            If
+          Sequence
+        ActivityAction
+      uiForEach.Body
+    uiForEach
+    uiWriteRange AddHeaders=False DataTable=[Puzzles] DisplayName=Write Range sapVirtualizedContainerService.HintSize=560,116 sap2010WorkflowViewState.IdRef=WriteRange_1 SheetName=Sheet1 StartingCell=A1 WorkbookPath=InputChess Puzzle List.xlsx 
+  Sequence
+Activity

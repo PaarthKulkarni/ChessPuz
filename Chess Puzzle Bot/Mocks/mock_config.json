@@ -1,0 +1,8 @@
+{
+  "mockedWorkflows": [
+    {
+      "mockFilePath": "Mocks\\PuzzleBot_mock.xaml",
+      "sourceWorkflowPath": "PuzzleBot.xaml"
+    }
+  ]
+}
